@@ -22,4 +22,7 @@ int main(){
 
 	float newSal = (perc * sal / 100) + sal;
 	cout<<"O salário atual é: "<<newSal;
+
+	system("pause");
+	return(0);
 }

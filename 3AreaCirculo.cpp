@@ -16,4 +16,7 @@ int main(){
 	float pi = 3.14;
 	float a = pi*(r*r); 
 	cout<<"A área do circulo é: "<<a;
+
+	system("pause");
+	return(0);
 }

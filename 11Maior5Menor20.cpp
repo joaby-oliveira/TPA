@@ -17,4 +17,6 @@ int main (){
 	if(n>5 && n <20){
 		cout<<"O cubo de "<<n<<" é: "<<n*n*n;
 	}
+	system("pause");
+	return(0);
 }

@@ -18,4 +18,6 @@ int main(){
 	cin>>h;
 	int a = b * h / 2;
 	cout<<"A área do triângulo é: "<<a<<endl;
+	system("pause");
+	return(0);
 };

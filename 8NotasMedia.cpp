@@ -18,4 +18,8 @@ int main (){
 	}
 	float media = (notas[0] + notas[1] + notas[2] + notas[3]) / 4;
 	cout<<"A média é: "<<media;
+
+	system("pause");
+	return(0);
+	
 }

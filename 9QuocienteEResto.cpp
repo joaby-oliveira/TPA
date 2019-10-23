@@ -24,5 +24,7 @@ int main (){
 	int rest = dividen % diver;
 	
 	cout<<"O quociente é: "<<quoc<<" e o resto é: "<<rest;
-	
+
+	system("pause");
+	return(0);	
 }

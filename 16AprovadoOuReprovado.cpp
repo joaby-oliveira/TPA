@@ -1,5 +1,5 @@
 /*
-função: Ler um numero e retornar se ele é verdadeiro ou falso.
+função: Receber a media de um aluno e retornar se ele foi aprovado ou reprovado.
 nome:Joaby Oliveira.
 data de criação:06/10/2019
 data de alteração:06/10/2019
@@ -11,14 +11,8 @@ using namespace std;
 
 int main (){
 	setlocale(LC_ALL,"portuguese");
-	cout<<"Digite um número: ";
-	int n = 0;
-	cin>>n;
-	if (n % 2 == 0){
-		cout<<"Numero par";
-	}else{
-		cout<<"Número impar";
-	}
+	
 	system("pause");
 	return(0);
 }
+

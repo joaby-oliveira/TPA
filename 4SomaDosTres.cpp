@@ -26,4 +26,6 @@ int main(){
 	int rootsum = sum * sum;
 	printf("%i + %i + %i = %i² => %i", n1,n2,n3, sum, rootsum);
 	
+	system("pause");
+	return(0);	
 }

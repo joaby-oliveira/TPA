@@ -26,4 +26,7 @@ int main(){
 	prest = val + (val * (tax / 100) * tim);
 	
 	printf("O valor da prestaçao e: %f", prest);
+
+	system("pause");
+	return(0);
 }

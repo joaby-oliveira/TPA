@@ -26,4 +26,5 @@ int main(){
 	printf("Enquanto o preço por metro quadrado for %5.2f, o valor total deste terreno sera de R$%5.2f", mq, pf);
 
 	system("pause");
-	}
+	return(0);
+}
