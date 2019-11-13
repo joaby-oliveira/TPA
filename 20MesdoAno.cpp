@@ -1,8 +1,8 @@
 /*
-função: Receber um valor e dizer se é par ou ímpar.
+função: Ler um numero, mostrar seu respectivo mês do calendário.
 nome:Joaby Oliveira.
 data de criação:22/10/2019
-data de alteração:22/10/2019
+data de alteração:12/11/2019
 */
 
 #include<iostream>

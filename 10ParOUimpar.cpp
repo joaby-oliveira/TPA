@@ -11,13 +11,13 @@ using namespace std;
 
 int main (){
 	setlocale(LC_ALL,"portuguese");
-	cout<<"Digite um número: ";
+	printf("Digite um número: ");
 	int n = 0;
-	cin>>n;
+	scanf("%i", &n);
 	if (n % 2 == 0){
-		cout<<"Numero par";
+		printf("Numero par");
 	}else{
-		cout<<"Número impar";
+		printf("Número impar");
 	}
 	system("pause");
 	return(0);

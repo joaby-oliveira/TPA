@@ -1,8 +1,8 @@
 /*
-funï¿½ï¿½o: Calcular o preï¿½o de um terreno retangular
+função: Calcular o preço de um terreno retangular
 nome:Joaby Oliveira.
-data de criaï¿½ï¿½o:02/10/2019
-data de alteraï¿½ï¿½o:02/10/2019
+data de criaïção:02/10/2019
+data de alteração:02/10/2019
 */
 #include<iostream>
 #include<windows.h>
@@ -10,20 +10,21 @@ data de alteraï¿½ï¿½o:02/10/2019
 using namespace std;
 int main(){
 	setlocale(LC_ALL,"portuguese");
-	cout<<"Digite a medida de frente do terreno(em metros): ";
+	printf("Digite a medida de frente do terreno(em metros): ");
 	float mf = 0;
-	cin>>mf;
-	cout<<"Digite a medida de um dos lados do terreno(em metros): ";
+	scanf("%f" ,&mf);
+	printf("Digite a medida de um dos lados do terreno(em metros): ");
 	float ml = 0;
-	cin>>ml;
-	cout<<"Digite o valor do metro quadrado(reais): ";
+	scanf("%f", &ml);
+	printf("Digite o valor do metro quadrado(reais): ");
+	getchar();
 	float mq = 0;
-	cin >> mq;
+	scanf("%f", &mq);
 	
 	float at = ml * mf;
 	float pf = mq*at;
 	
-	printf("Enquanto o preÃ§o por metro quadrado for %5.2f, o valor total deste terreno sera de R$%5.2f", mq, pf);
+	printf("Enquanto o preço por metro quadrado for %5.2f, o valor total deste terreno sera de R$%5.2f", mq, pf);
 
 	system("pause");
 	return(0);

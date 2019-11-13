@@ -10,22 +10,22 @@ data de alteração:02/10/2019
 using namespace std;
 int main(){
 	setlocale(LC_ALL, "portuguese");
-	cout<<"Digite o valor em poupança: ";
+	printf("Digite o valor em poupança: ");
 	float val = 0;
-	cin>>val;
+	scanf("%f", &val);
 	
-	cout<<"Digite o valor da taxa: ";
+	printf("Digite o valor da taxa: ");
 	float tax = 0;
-	cin>>tax;
+	scanf("%f", &tax);
 	
-	cout<<"Digite quantos dias este valor esta acumulado: ";
+	printf("Digite quantos dias este valor esta acumulado: ");
 	int tim = 0;
-	cin>>tim;
+	scanf("%i", &tim);
 	
 	float prest = 0;
 	prest = val + (val * (tax / 100) * tim);
 	
-	printf("O valor da prestaçao e: %f", prest);
+	printf("O valor da prestaçao e: %5.2f", prest);
 
 	system("pause");
 	return(0);

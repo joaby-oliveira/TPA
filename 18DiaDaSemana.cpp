@@ -1,8 +1,8 @@
 /*
-função: Receber um valor e dizer se é par ou ímpar.
+função: Receber um numero e dizer seu respectivo dia da semana no calendários.
 nome:Joaby Oliveira.
 data de criação:06/10/2019
-data de alteração:06/10/2019
+data de alteração:12/12/2019
 */
 #include<iostream>
 #include<windows.h>
@@ -44,4 +44,6 @@ int main (){
 				break;
 				
 			}
+			system("pause");
+			return(0);
 	}

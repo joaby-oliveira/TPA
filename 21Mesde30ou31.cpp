@@ -1,8 +1,8 @@
 /*
-função: Receber um valor e dizer se é par ou ímpar.
+função: Ver a quantidade de dias de um mês
 nome:Joaby Oliveira.
 data de criação:22/10/2019
-data de alteração:22/10/2019
+data de alteração:13/11/2019
 */
 
 #include<iostream>

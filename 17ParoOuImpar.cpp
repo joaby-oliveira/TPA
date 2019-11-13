@@ -2,7 +2,7 @@
 função: Receber um valor e dizer se é par ou ímpar.
 nome:Joaby Oliveira.
 data de criação:06/10/2019
-data de alteração:06/10/2019
+data de alteração:12/11/2019
 */
 #include<iostream>
 #include<windows.h>
@@ -14,13 +14,15 @@ int main (){
 	
 	cout<<"Digite um valor: ";
 	int val = 0;
-	cin>>val;
+	scanf("%i", &val);
 	
 	if(val % 2 == 0){
-		cout<<"O valor é par.";
+		printf("O valor é par.\n");
 	}
 	else{
-		cout<<"O valor é ímpar";
+		printf("O valor é ímpar\n");
 
 	}
+	system("pause");
+	return(0);
 }

@@ -10,12 +10,12 @@ data de alteração:02/10/2019
 using namespace std;
 int main(){
 	setlocale(LC_ALL, "portuguese");
-	cout<<"Digite o raio do circulo: ";
+	printf("Digite o raio do circulo: ");
 	int r = 0;
-	cin>>r;
+	scanf("%i", &r);
 	float pi = 3.14;
 	float a = pi*(r*r); 
-	cout<<"A área do circulo é: "<<a;
+	printf("A área do circulo é: %f", a);
 
 	system("pause");
 	return(0);

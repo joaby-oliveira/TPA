@@ -13,11 +13,11 @@ int main (){
 	setlocale(LC_ALL,"portuguese");
 	int notas[4];
 	for (int i = 0; i <= 3; i++){
-		cout<<"Digite a nota: ";
-		cin>>notas[i];
+		printf("Digite a nota: ");
+		scanf("%i", &notas[i]);
 	}
 	float media = (notas[0] + notas[1] + notas[2] + notas[3]) / 4;
-	cout<<"A média é: "<<media;
+	printf("A média é: %f", media);
 	
 	system("pause");
 	return(0);

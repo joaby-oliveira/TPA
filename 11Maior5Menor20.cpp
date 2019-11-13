@@ -2,7 +2,7 @@
 função: Receber um valor, e, se ele for maior que 5 e menor que 20 mostrar seu cubo
 nome:Joaby Oliveira.
 data de criação:06/10/2019
-data de alteração:06/10/2019
+data de alteração:12/11/2019
 */
 #include<iostream>
 #include<windows.h>
@@ -11,11 +11,15 @@ using namespace std;
 
 int main (){
 	setlocale(LC_ALL,"portuguese");
-	cout<<"Digite um número: ";
+	printf("Digite um número: ");
 	int n = 0;
-	cin >> n;
+	scanf("%i", &n);
+	int cuboN = n*n*n;
 	if(n>5 && n <20){
-		cout<<"O cubo de "<<n<<" é: "<<n*n*n;
+		printf("O cubo de %i é: %i \n", n, cuboN);
+	}
+	else{
+		printf("O valor tem que ser maior que 5 e menor que 7 \n");
 	}
 	system("pause");
 	return(0);

@@ -4,20 +4,23 @@ nome: Joaby Oliveira dos Santos Silva.
 data de criação:02/10/2019
 data de alteração:02/10/2019
 */
-
 #include<iostream>
 #include<windows.h>
-#include<math.h>
+#include<locale.h>
+
 using namespace std;
-int main(){
-	cout<<"Digite a base do triângulo: ";
+
+int main (){
+	setlocale(LC_ALL,"portuguese");
+
+	printf("Digite a base do triângulo: ");
 	int b = 0;
-	cin>>b;
-	cout<<"Digite a altura do triângulo: ";
+	scanf("%i", &b);
+	printf("Digite a altura do triângulo: ");
 	int h = 0;
-	cin>>h;
+	scanf("%i", &h);
 	int a = b * h / 2;
-	cout<<"A área do triângulo é: "<<a<<endl;
+	printf("A área do retângulo é %i \n", a);
 	system("pause");
 	return(0);
 };
