@@ -18,6 +18,7 @@ int main(){
 				casas[i][j] = ' ';
 			}
 		}
+		 
 		do{
 			printf("\n-------------");
 			printf("\n| %c | %c | %c |", casas[0][0], casas[0][1], casas[0][2]);
@@ -34,21 +35,19 @@ int main(){
 				printf("\nVez de %s", O);
 			}
 			
-				printf("\nDigite a linha: ");
-				scanf("%i", &l);
-				printf("\nDigite a coluna: ");
-				scanf("%i", &c);
-
+			printf("\nDigite a linha: ");
+			scanf("%i", &l);
+			printf("\nDigite a coluna: ");
+			scanf("%i", &c);
 			if(l<1 || c<1 || l>3 || c>3){
 				printf("ERROR!!!");
 			}
-			
 			else 
 			if(casas[l-1][c-1] != ' '){
 				printf("ERROR!!!");
 			}
 			else{
-				if(vez % 2 == 0){
+				if(vez % 2 != 0){
 					casas[l-1][c-1] = xis;
 				}
 				else{
@@ -99,8 +98,8 @@ int main(){
 			fflush(stdin);
 			scanf("%c", &resp);
 
-			if(resp != '1'){
-				printf("Obrigado por jogar\n");
+			if(resp != '1'){           
+				printf("Obrigado por jogar");
 				}
 	}while(resp == '1');
 	
